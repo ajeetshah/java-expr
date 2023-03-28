@@ -1,7 +1,10 @@
 package com.example.demo.learn_java;
 
+import java.util.Comparator;
+
 public class Product {
 
+  public static final Comparator<Product> BY_WEIGHT = Comparator.comparingInt(Product::getWeight);
   private String name;
   private Integer weight;
 
@@ -30,6 +33,5 @@ public class Product {
   public String toString() {
     return "{name: '" + this.name + "', " + "weight: '" + this.weight + "'}";
   }
-
-
+  
 }
