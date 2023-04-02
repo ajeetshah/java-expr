@@ -1,4 +1,4 @@
-package com.example.demo.learn_java;
+package com.example.demo.learn_java.learn_list;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ public class LearnArray {
 
 //    System.out.println(Arrays.toString(products));
 
-    for (Product product: products) {
+    for (Product product : products) {
       System.out.println(product);
     }
   }

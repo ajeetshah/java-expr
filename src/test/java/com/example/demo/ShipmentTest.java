@@ -5,8 +5,8 @@ import static org.hamcrest.Matchers.contains;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.example.demo.learn_java.Product;
-import com.example.demo.learn_java.Shipment;
+import com.example.demo.learn_java.learn_list.Product;
+import com.example.demo.learn_java.learn_list.Shipment;
 import org.junit.jupiter.api.Test;
 
 public class ShipmentTest {
