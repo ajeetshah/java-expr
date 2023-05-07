@@ -8,7 +8,14 @@ public class Product {
   private int id;
   private String name;
   private Integer weight;
+
   public Product(String name, Integer weight) {
+    this.name = name;
+    this.weight = weight;
+  }
+
+  public Product(int id, String name, Integer weight) {
+    this.id = id;
     this.name = name;
     this.weight = weight;
   }
